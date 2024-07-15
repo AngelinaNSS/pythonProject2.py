@@ -1,0 +1,289 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "http://fohispital.thd/Patient-cd1e51f7-8154-4a66-ad7c-6b47228216d1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "Patient-cd1e51f7-8154-4a66-ad7c-6b47228216d1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>A patient resource with a narrative.</div>"
+        },
+        "identifier": [
+          {
+            "system": "fohispital.thd/patient-ids",
+            "value": "1"
+          }
+        ],
+        "birthDate": "1989-01-01"
+      }
+    },
+    {
+      "fullUrl": "http://fohispital.thd/observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>An observation resource with a narrative.</div>"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "82810-3",
+              "display": "Pregnancy"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cd1e51f7-8154-4a66-ad7c-6b47228216d1"
+        },
+        "effectiveDateTime": "2024-07-15T16:54:31.352987",
+        "performer": [
+          {
+            "reference": "Practitioner/1d260e40-2ecd-4729-bb59-6d9fdd2b6666"
+          }
+        ],
+        "valueQuantity": {
+          "value": 7.0,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://fohispital.thd/observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>An observation resource with a narrative.</div>"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "15074-8",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cd1e51f7-8154-4a66-ad7c-6b47228216d1"
+        },
+        "effectiveDateTime": "2024-07-15T16:54:31.354591",
+        "performer": [
+          {
+            "reference": "Practitioner/1d260e40-2ecd-4729-bb59-6d9fdd2b6666"
+          }
+        ],
+        "valueQuantity": {
+          "value": 120.0,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://fohispital.thd/observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>An observation resource with a narrative.</div>"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cd1e51f7-8154-4a66-ad7c-6b47228216d1"
+        },
+        "effectiveDateTime": "2024-07-15T16:54:31.355985",
+        "performer": [
+          {
+            "reference": "Practitioner/1d260e40-2ecd-4729-bb59-6d9fdd2b6666"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 120.0,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 80.0,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://fohispital.thd/observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>An observation resource with a narrative.</div>"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14749-6",
+              "display": "Glucose [Moles/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cd1e51f7-8154-4a66-ad7c-6b47228216d1"
+        },
+        "effectiveDateTime": "2024-07-15T16:54:31.358427",
+        "performer": [
+          {
+            "reference": "Practitioner/1d260e40-2ecd-4729-bb59-6d9fdd2b6666"
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.0,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://fohispital.thd/observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "observation-1-f8e1d354-a5ad-4b03-90a2-72ac4fbb772d",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>An observation resource with a narrative.</div>"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "BMI"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cd1e51f7-8154-4a66-ad7c-6b47228216d1"
+        },
+        "effectiveDateTime": "2024-07-15T16:54:31.360252",
+        "performer": [
+          {
+            "reference": "Practitioner/1d260e40-2ecd-4729-bb59-6d9fdd2b6666"
+          }
+        ],
+        "valueQuantity": {
+          "value": 25.4,
+          "unit": "kg/m3",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m3"
+        }
+      }
+    }
+  ]
+}
